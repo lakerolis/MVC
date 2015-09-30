@@ -10,6 +10,8 @@ import com.parse.ParseQuery;
 
 import java.util.List;
 
+import models.TimeExercise;
+import models.WOD;
 import models.Workout;
 
 /**
@@ -40,6 +42,18 @@ public class WorkoutController extends android.app.Application{
         workout.put("number_of_rounds", w.getNumberOfRounds());
         workout.saveInBackground();
     }
+
+    public void saveToParse(WOD w){
+        // Enable Local Datastore.
+        ParseObject workout  = new ParseObject("workout");
+        workout.put("workout_name", w.getName());
+        workout.put("number_of_exercises", w.getExercises().size());
+        workout.put("number_of_rounds", w.getRounds());
+        TimeExercise ex = (TimeExercise) w.getExercises().get(0);
+        workout.put("data",ex.getSensorData());
+        workout.saveInBackground();
+    }
+
     public List<String> retrieveListOfAllWorkoutsFromParse(){
         final List<String> list = null;
         ParseQuery<ParseObject> workout = new ParseQuery<ParseObject>("workout");
