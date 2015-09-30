@@ -15,7 +15,7 @@ import models.Workout;
 /**
  * Created by dasas on 12/09/15.
  *
- * MEGET VIGTIG CONTROLLER
+ * MEGET VIGTIG CONTROLLER 2
  */
 public class WorkoutController extends android.app.Application{
 
