@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/Falch/Downloads/MVC/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/7.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="0124ce31248c0e8acfa2b28283c6d1a4d76e73d2">
+        <dex dex="/Users/Falch/Downloads/MVC/mobile/build/intermediates/pre-dexed/debug/classes-7830e3a3c9b28d48eec2dc0127b90df0d04c6a33.jar" />
+    </item>
+    <item
+        jar="/Users/Falch/Downloads/MVC/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/7.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c756d14e99d39471e99013a1e8fd2f3813ed42bf">
+        <dex dex="/Users/Falch/Downloads/MVC/mobile/build/intermediates/pre-dexed/debug/classes-025c8fe9578775fc1e6fc84cf4769ebb23ec9ca6.jar" />
+    </item>
+    <item
+        jar="/Users/Falch/Downloads/MVC/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/7.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="166e458ee3b5fb5fcff0f936df3f3a788e6c54f3">
+        <dex dex="/Users/Falch/Downloads/MVC/mobile/build/intermediates/pre-dexed/debug/classes-4a915dcd32bdbb7cc8f394882c79df40f6150198.jar" />
+    </item>
+    <item
+        jar="/Users/Falch/Downloads/MVC/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/7.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="77a9dcb5f8b1dba36aacaa9c150eb0942dbea158">
+        <dex dex="/Users/Falch/Downloads/MVC/mobile/build/intermediates/pre-dexed/debug/classes-8f5154046763f2e33830fc9fdf842cb59f35b558.jar" />
+    </item>
+    <item
+        jar="/Users/Falch/Downloads/MVC/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/7.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c2ac04c5b232f6f0658ee4f1c13be09cd76406e2">
+        <dex dex="/Users/Falch/Downloads/MVC/mobile/build/intermediates/pre-dexed/debug/classes-dfc7f61353a67d9f888e12e49cdb77e192851c2d.jar" />
+    </item>
+    <item
+        jar="/Users/Falch/Downloads/MVC/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/7.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c5cafb324568d954780abb858c25db7ce675ab3c">
+        <dex dex="/Users/Falch/Downloads/MVC/mobile/build/intermediates/pre-dexed/debug/classes-5eefd33e732c32dbb1f140aced56c51c425d856c.jar" />
+    </item>
+    <item
+        jar="/Users/Falch/Downloads/MVC/mobile/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="/Users/Falch/Downloads/MVC/mobile/build/intermediates/pre-dexed/debug/classes-ea6a7326208639f9165bfdb16888557e8eaea2c1.jar" />
+    </item>
+    <item
+        jar="/Users/Falch/eclipse-Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.0.1/support-annotations-23.0.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
+        <dex dex="/Users/Falch/Downloads/MVC/mobile/build/intermediates/pre-dexed/debug/support-annotations-23.0.1-3eab6238e48bcfa07a52a8aeb14c76b13c559b9d.jar" />
+    </item>
+    <item
+        jar="/Users/Falch/Downloads/MVC/mobile/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.2.0/jars/libs/internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="0632f06970823b7e3436f649bfa65b47035c91d0">
+        <dex dex="/Users/Falch/Downloads/MVC/mobile/build/intermediates/pre-dexed/debug/internal_impl-22.2.0-cb87cec02021be06125b022a6f7496c01b90e37a.jar" />
+    </item>
+    <item
+        jar="/Users/Falch/Downloads/MVC/mobile/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
+        <dex dex="/Users/Falch/Downloads/MVC/mobile/build/intermediates/pre-dexed/debug/classes-63758f914b0b37b223085449e111c431dbcf9758.jar" />
+    </item>
+    <item
+        jar="/Users/Falch/Downloads/MVC/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-games/7.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="2e24e5f1b11170163028277de63f709e42525db4">
+        <dex dex="/Users/Falch/Downloads/MVC/mobile/build/intermediates/pre-dexed/debug/classes-a9289adcc0f2541ce75c5ebeed3363ecf98dfbad.jar" />
+    </item>
+    <item
+        jar="/Users/Falch/Downloads/MVC/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/7.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d11330ea68c0d964d30d5caed1f27e6b1488b189">
+        <dex dex="/Users/Falch/Downloads/MVC/mobile/build/intermediates/pre-dexed/debug/classes-26065e672fcb458570fda53d26263fdf8c6deb8a.jar" />
+    </item>
+    <item
+        jar="/Users/Falch/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-android/1.2.0/6ee2953ccf51ce72b6d548c30c4633b99eb4f9dd/bolts-android-1.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="6ee2953ccf51ce72b6d548c30c4633b99eb4f9dd">
+        <dex dex="/Users/Falch/Downloads/MVC/mobile/build/intermediates/pre-dexed/debug/bolts-android-1.2.0-2ceb4ac97a62bb08b9873db088e127a31123f109.jar" />
+    </item>
+    <item
+        jar="/Users/Falch/Downloads/MVC/mobile/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/libs/internal_impl-23.0.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="/Users/Falch/Downloads/MVC/mobile/build/intermediates/pre-dexed/debug/internal_impl-23.0.1-e15ec249cde179aafe1e20b80e421f6c3fb9b410.jar" />
+    </item>
+    <item
+        jar="/Users/Falch/Downloads/MVC/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/7.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4a135d56554069e5d0ff80e3220e887e57146ee5">
+        <dex dex="/Users/Falch/Downloads/MVC/mobile/build/intermediates/pre-dexed/debug/classes-393d2f79b7b3d1a701920b97c512fda2e4ac9aa7.jar" />
+    </item>
+    <item
+        jar="/Users/Falch/Downloads/MVC/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-panorama/7.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="6e85edfc9b5346d216e50ccef1f8e825504144a3">
+        <dex dex="/Users/Falch/Downloads/MVC/mobile/build/intermediates/pre-dexed/debug/classes-0cb5d228ff6cbf4344238c9757c74423f9281d85.jar" />
+    </item>
+    <item
+        jar="/Users/Falch/Downloads/MVC/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/7.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="adebe28e0c0c05d34a3bfd76f3275bf4d8ff87b6">
+        <dex dex="/Users/Falch/Downloads/MVC/mobile/build/intermediates/pre-dexed/debug/classes-662f859d954a00030f904bfe34cd598e9c976a6b.jar" />
+    </item>
+    <item
+        jar="/Users/Falch/Downloads/MVC/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-vision/7.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="b99f0b78bbcb76b915bc6529a83b65d4d46990dd">
+        <dex dex="/Users/Falch/Downloads/MVC/mobile/build/intermediates/pre-dexed/debug/classes-f1bfbc94422d556647e6ec07d6f0259822e3a3ca.jar" />
+    </item>
+    <item
+        jar="/Users/Falch/Downloads/MVC/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/7.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="cb6fab7a71fa9ec1f483d44c5fca65ab469d8aca">
+        <dex dex="/Users/Falch/Downloads/MVC/mobile/build/intermediates/pre-dexed/debug/classes-106988f9f059c13647de913bdf83261d820f6e5c.jar" />
+    </item>
+    <item
+        jar="/Users/Falch/Downloads/MVC/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-appstate/7.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="edea92852b40eee716e910af8dad9eeaa58fb0e1">
+        <dex dex="/Users/Falch/Downloads/MVC/mobile/build/intermediates/pre-dexed/debug/classes-09552574ed0a56e5c5aac1b094ffe165073bea62.jar" />
+    </item>
+    <item
+        jar="/Users/Falch/Downloads/MVC/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/7.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="2491ae1b2a848af1f4f0c795f3117c1bd6a1989f">
+        <dex dex="/Users/Falch/Downloads/MVC/mobile/build/intermediates/pre-dexed/debug/classes-0b0ff2d0a911f0d15a2f9c3e17160319a61b518e.jar" />
+    </item>
+    <item
+        jar="/Users/Falch/Downloads/MVC/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/7.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e23ea11124bb700eeddd4ab7aa848c615f493850">
+        <dex dex="/Users/Falch/Downloads/MVC/mobile/build/intermediates/pre-dexed/debug/classes-b0687ffbb6e2f3e50d3ad0c23ba2f7277173e037.jar" />
+    </item>
+    <item
+        jar="/Users/Falch/Downloads/MVC/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c0c912d58c9468b1f9d9769c8975afdf2c85d681">
+        <dex dex="/Users/Falch/Downloads/MVC/mobile/build/intermediates/pre-dexed/debug/classes-70d6ba390d6ba56f43001532fb726575e580ae8e.jar" />
+    </item>
+    <item
+        jar="/Users/Falch/Downloads/MVC/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/7.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="130b32ed466fa0f63efd4c7d6250ccd2ed506790">
+        <dex dex="/Users/Falch/Downloads/MVC/mobile/build/intermediates/pre-dexed/debug/classes-fb9d393fadca3de925f6c6bbce8885cb0e656df0.jar" />
+    </item>
+    <item
+        jar="/Users/Falch/Downloads/MVC/mobile/libs/Parse-1/Parse-1.10.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="181b435832725bec96c11ff568bdfbccdacab944">
+        <dex dex="/Users/Falch/Downloads/MVC/mobile/build/intermediates/pre-dexed/debug/Parse-1.10.1-504ec77561f3324d69d519eb4eb7ab501a2a9f59.jar" />
+    </item>
+    <item
+        jar="/Users/Falch/Downloads/MVC/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/7.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="98137c4d12c50923f5809852b1ef4d1c4e162081">
+        <dex dex="/Users/Falch/Downloads/MVC/mobile/build/intermediates/pre-dexed/debug/classes-b602fc843bdb5f15f147a531b1ed6ff4021154a3.jar" />
+    </item>
+    <item
+        jar="/Users/Falch/Downloads/MVC/mobile/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="dcf8c83c3dead00a6c4fe313e95f7aaca20dc641">
+        <dex dex="/Users/Falch/Downloads/MVC/mobile/build/intermediates/pre-dexed/debug/classes-241345c213a9354b11f45ab58b791599a2aed0b9.jar" />
+    </item>
+    <item
+        jar="/Users/Falch/Downloads/MVC/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/7.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1ff30fa49c07a08c3035d7218a3efebf5680d522">
+        <dex dex="/Users/Falch/Downloads/MVC/mobile/build/intermediates/pre-dexed/debug/classes-f8ef9561a3c3de65b00cf38c9f2783fe9d0f8003.jar" />
+    </item>
+    <item
+        jar="/Users/Falch/Downloads/MVC/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/7.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="42a1ee578b62fd1bd28b3307a679dc9ba0791587">
+        <dex dex="/Users/Falch/Downloads/MVC/mobile/build/intermediates/pre-dexed/debug/classes-6eee19c2f3d2ff45d5abf9944ffba00619d5879a.jar" />
+    </item>
+
+</items>
