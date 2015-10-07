@@ -28,4 +28,5 @@ dependencies {
     compile fileTree(dir: 'libs', include: 'Parse-*.jar')
     compile files('/Users/dasas/Documents/Code/Android/MVC/Libs/Parse-1/Parse-1.10.1.jar')
     compile files('libs/Parse-1/Parse-1.10.1.jar')
+    compile files('libs/weka.jar')
 }
