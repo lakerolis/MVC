@@ -2,22 +2,23 @@ package sliding.mvc;
 
 
 import android.content.Context;
+import android.graphics.Color;
 import android.hardware.Sensor;
 import android.hardware.SensorEvent;
 import android.hardware.SensorEventListener;
 import android.hardware.SensorManager;
 import android.os.Bundle;
-import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 
+import controllers.Server;
 import models.SensorData;
 import models.TimeExercise;
 import models.WOD;
-import models.Workout;
 
 /**
  * Created by dasas on 12/09/15.
@@ -25,13 +26,11 @@ import models.Workout;
 public class menu_fragment2 extends Fragment implements SensorEventListener {
     View rootview;
 
-
     private SensorManager mSensorManager;
     private Sensor acSensor;
 
     private  WOD wod;
 
-    @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         rootview = inflater.inflate(R.layout.menu2_layout, container, false);
@@ -41,10 +40,42 @@ public class menu_fragment2 extends Fragment implements SensorEventListener {
 
         mSensorManager.registerListener(this, acSensor, SensorManager.SENSOR_DELAY_NORMAL);
 
+        final Button btn = (Button) rootview.findViewById(R.id.btnStart);
+
+        btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                wod.start();
+                btn.setBackgroundColor(Color.RED);
+                if(btn.getText().equals("Start")){
+                    TimeExercise ex = (TimeExercise) wod.getExercises().get(wod.getCurrentExercise());
+                    ex.start();
+                    btn.setText(ex.getRepetitions()+ " " + ex.getName());
+                }else{
+                    TimeExercise old_ex = (TimeExercise) wod.getExercises().get(wod.getCurrentExercise());
+                    old_ex.stop();
+                    int next = wod.nextExercise();
+                    if(next != -1) {
+                        TimeExercise ex = (TimeExercise) wod.getExercises().get(wod.getCurrentExercise());
+                        btn.setText(ex.getRepetitions() + " " + ex.getName());
+                        ex.start();
+                    }
+                    else if(next==-1){
+                        old_ex.stop();
+                        wod.stop();
+                        btn.setText("DONE");
+                        Server server = new Server();
+                        server.connect(wod);
+                        btn.setBackgroundColor(Color.GRAY);
+                    }
+
+                }
+
+            }
+        });
         wod = new WOD("Half-cindy","",1);
         wod.addExercise(new TimeExercise("Push-ups", 5));
         wod.addExercise(new TimeExercise("Sit-ups", 10));
-
         return rootview;
     }
 

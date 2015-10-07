@@ -16,6 +16,21 @@ public class WOD {
     private long endTime;
     private ArrayList<BaseExercise> exercises = new ArrayList<BaseExercise>();
     private ArrayList<String> notes = new ArrayList<String>();
+    private int currentExercise = 0;
+
+
+    public int getCurrentExercise() {
+        return currentExercise;
+    }
+
+    public int nextExercise(){
+        if(currentExercise < exercises.size()-1){
+            return currentExercise++;
+        }
+        return -1;
+    }
+
+
 
     public WOD(String name, String description, int rounds){
         this.name = name;
@@ -23,6 +38,15 @@ public class WOD {
         this.rounds = rounds;
         date = new Date();
     }
+
+    public void start(){
+        startTime = System.currentTimeMillis();
+    }
+    public void stop(){
+        endTime = System.currentTimeMillis();
+    }
+
+
 
     public void addNote(String txt){
         getNotes().add(txt);
@@ -103,5 +127,10 @@ public class WOD {
 
     public void setNotes(ArrayList<String> notes) {
         this.notes = notes;
+    }
+
+    @Override
+    public String toString() {
+        return "{name: " + name + "}";
     }
 }

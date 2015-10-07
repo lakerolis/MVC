@@ -9,4 +9,20 @@
         android:text="2"
         android:id="@+id/textView"
         android:layout_gravity="center_horizontal" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal">
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="START"
+            android:id="@+id/btnStart"
+            android:background="#00DD00"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+
 </LinearLayout>

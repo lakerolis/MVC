@@ -1,8 +1,5 @@
 package models;
 
-import android.hardware.Sensor;
-import android.hardware.SensorEventListener;
-
 import java.util.ArrayList;
 
 /**
@@ -57,5 +54,9 @@ public class TimeExercise extends BaseExercise {
 
     public ArrayList<SensorData> getSensorData(){
         return  this.sensorData;
+    }
+
+    public int getRepetitions(){
+        return repetitions;
     }
 }
