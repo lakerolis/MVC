@@ -14,7 +14,6 @@ import java.util.List;
  */
 public class menu_fragment1 extends Fragment {
     View rootview;
-    WorkoutController wc;
     List<String> list;
 
     @Override

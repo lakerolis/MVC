@@ -6,6 +6,7 @@ import android.util.Log;
 import com.google.gson.Gson;
 
 import java.net.HttpURLConnection;
+import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.Scanner;
 
@@ -16,13 +17,15 @@ import models.WOD;
  */
 public class Server {
 
-    public void connect(WOD wod){
-        new MyConnect(wod).execute();
+    public void saveWOD(WOD wod){
+        new WODSave(wod).execute();
     }
-    private class MyConnect extends AsyncTask<Void, Void, Void> {
+
+
+    private class WODSave extends AsyncTask<Void, Void, Void> {
 
         private WOD w;
-        public MyConnect(WOD w){
+        public WODSave(WOD w){
             this.w = w;
         }
 
@@ -31,21 +34,15 @@ public class Server {
             try {
                 Gson gson = new Gson();
                 String s = gson.toJson(w);
-                Log.d("TEST", s.toString());
-                URL url = new URL("http://72.9.151.78/~wody/wod_save.php");
-                HttpURLConnection con = (HttpURLConnection)url.openConnection();
-                con.setDoInput(true);
-                con.setDoOutput(true);
-                con.setRequestMethod("POST");
+
+                HttpURLConnection con = startServer("wod_save.php");
                 con.getOutputStream().write(("wod="+s).getBytes());
-                con.connect();
 
                 Scanner scanner = new Scanner(con.getInputStream());
                 String s1 = "";
                 while (scanner.hasNext()) {
                     s1 += scanner.nextLine();
                 }
-                Log.d("TEST", s1);
                 System.out.println(s1);
                 scanner.close();
 
@@ -53,6 +50,16 @@ public class Server {
                 e.printStackTrace();
             }
             return null;
+        }
+
+
+        private HttpURLConnection startServer(String serverurl) throws Exception {
+            URL url = new URL("http://72.9.151.78/~wody/"+serverurl);
+            HttpURLConnection con = (HttpURLConnection)url.openConnection();
+            con.setDoInput(true);
+            con.setDoOutput(true);
+            con.setRequestMethod("POST");
+            return  con;
         }
     }
 }

@@ -65,7 +65,7 @@ public class menu_fragment2 extends Fragment implements SensorEventListener {
                         wod.stop();
                         btn.setText("DONE");
                         Server server = new Server();
-                        server.connect(wod);
+                        server.saveWOD(wod);
                         btn.setBackgroundColor(Color.GRAY);
                     }
 

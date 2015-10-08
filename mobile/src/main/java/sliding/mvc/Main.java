@@ -21,7 +21,6 @@ public class Main extends ActionBarActivity
      * Fragment managing the behaviors, interactions and presentation of the navigation drawer.
      */
     private NavigationDrawerFragment mNavigationDrawerFragment;
-    public static WorkoutController wc = new WorkoutController();
 
 
     /**
