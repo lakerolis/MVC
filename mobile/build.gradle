@@ -23,9 +23,5 @@ dependencies {
     wearApp project(':wear')
     compile 'com.android.support:appcompat-v7:23.0.1'
     compile 'com.google.android.gms:play-services:7.8.0'
-    compile 'com.parse.bolts:bolts-android:1.+'
-    compile fileTree(dir: 'libs', include: 'Parse-*.jar')
-    compile files('/Users/dasas/Documents/Code/Android/MVC/Libs/Parse-1/Parse-1.10.1.jar')
-    compile files('libs/Parse-1/Parse-1.10.1.jar')
     compile files('libs/gson-2.2.4.jar', 'libs/gson-2.2.4-javadoc.jar', 'libs/gson-2.2.4-javadoc.jar')
 }
